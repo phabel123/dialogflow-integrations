@@ -29,10 +29,10 @@ app.use(bodyParser.urlencoded({ extended: true }));
 //See https://dialogflow.com/docs/reference/v2-auth-setup and
 // https://cloud.google.com/dialogflow/docs/setup for details.
 
-const projectId = 'Place your dialogflow projectId here';
-const phoneNumber = "Place your twilio phone number here";
-const accountSid = 'Place your accountSid here';
-const authToken = 'Place your authToken here';
+const projectId = 'Place your dialogflow projectId here'; https: //console.cloud.google.com/home/dashboard?project=hinode-huamanga-9vo9
+const phoneNumber = "Place your twilio phone number here";+ 51900167321 
+const accountSid = 'Place your accountSid here';AC72e7886d154c893dc0a1cb8604dc92f1
+const authToken = 'Place your authToken here';bb383cdb0076f0e286536f5d7e3e1a32
 
 const client = require('twilio')(accountSid, authToken);
 const MessagingResponse = require('twilio').twiml.MessagingResponse;

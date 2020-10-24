@@ -29,8 +29,8 @@ app.use(bodyParser.urlencoded({ extended: true }));
 //See https://dialogflow.com/docs/reference/v2-auth-setup and
 // https://cloud.google.com/dialogflow/docs/setup for details.
 
-const projectId = 'Place your dialogflow projectId here';
-const phoneNumber = "Place your twilio phone number here";
+const projectId = 'Place your dialogflow projectId here';https://console.cloud.google.com/home/dashboard?project=hinode-huamanga-9vo9
+const phoneNumber = "Place your twilio phone number here"; +51900167321
 const accountSid = 'Place your accountSid here';
 const authToken = 'Place your authToken here';
 
